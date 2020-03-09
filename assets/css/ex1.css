@@ -1,0 +1,50 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box; margin: auto 0;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.icon {
+  padding: 10px;
+  background: yellowgreen;
+  color: black;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.input-field2 {
+    width: 100%;
+    padding: 40px;
+    outline: none;
+  }
+
+.input-field:focus {
+  border: 2px solid yellowgreen;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: yellowgreen;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 2;
+
+
+    
+}
